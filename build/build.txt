@@ -1,0 +1,5 @@
+To build: 
+
+From the console simply run make. 
+
+Be sure you are inside the build directory first.
