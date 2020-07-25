@@ -7,4 +7,6 @@ Adjustable scolling speeds on the fly.
 
 You can also set your font size and color.
 
+Development environment is QT Creator running on OpenSUSE Tumbleweed Linux.
+
 This is software is CopyLeft and is free to use by anyone.
