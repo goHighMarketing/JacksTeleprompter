@@ -2,11 +2,11 @@
     <qresource prefix="/res">
         <file>resources/7.JPG</file>
         <file>resources/Beasley7.png</file>
-        <file>resources/openFile.png</file>
-        <file>resources/about-icon.png</file>
-        <file>resources/Actions-window-close-icon.png</file>
         <file>resources/Beasley.png</file>
         <file>resources/copyleft.png</file>
-        <file>resources/Forward Button.png</file>
+        <file>resources/about.png</file>
+        <file>resources/add.png</file>
+        <file>resources/close.png</file>
+        <file>resources/text.png</file>
     </qresource>
 </RCC>

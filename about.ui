@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="resources.qrc">
-    <normaloff>:/res/resources/about-icon.png</normaloff>:/res/resources/about-icon.png</iconset>
+    <normaloff>:/res/resources/about.png</normaloff>:/res/resources/about.png</iconset>
   </property>
   <widget class="QFrame" name="frame">
    <property name="geometry">

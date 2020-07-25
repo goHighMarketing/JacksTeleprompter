@@ -135,7 +135,7 @@ void MainWindow::on_actionA_bout_triggered()
 
 void MainWindow::on_pushButton_fontColor_released()
 {
-    QColor color = QColorDialog::getColor(Qt::green, this );
+    QColor color = QColorDialog::getColor(QColor("#550000"), this );
     if( color.isValid() )
     {
       QTextStream(stdout) << "Color Choosen : " << color.name();
