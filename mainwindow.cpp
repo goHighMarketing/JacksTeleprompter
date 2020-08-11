@@ -25,6 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
     speed = ui->horizontalSlider_Speed->value();
     ui->label_Speed->setText("Speed: " + QString::number(speed) + " milliseconds");
     ui->label_fontSize->setText("Font Size: " + QString::number(fontSize));
+    timer = new QTimer(this);
  // connect(ui->pushButton_Start, SIGNAL(clicked()), this, SLOT(scrollText()));
 //   ui->pushButton_Start->installEventFilter(this); // listen for the Clicked Event Filter to scroll text
 }
@@ -63,7 +64,6 @@ void MainWindow::on_pushButton_Start_clicked()
     {
         ui->statusbar->showMessage("Start Button Clicked!");
         ui->pushButton_Start->setText("Pause");
-        timer = new QTimer(this);
         connect(timer, SIGNAL(timeout()), this, SLOT(scrollText()));
         timer->start(speed);
         return;
@@ -110,7 +110,7 @@ void MainWindow::on_horizontalSlider_Speed_valueChanged(int value)
 {
     speed = value;
     try{
-        ui->label_Speed->setText("Speed: " + QString::number(value) + " milliseconds");
+        ui->label_Speed->setText("Speed: " + QString::number(speed) + " milliseconds");
         if(timer)
         {
             timer->stop();
