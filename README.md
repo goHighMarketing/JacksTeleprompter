@@ -11,6 +11,8 @@ Development environment is QT Creator running on OpenSUSE Tumbleweed Linux.
 
 This is software is CopyLeft and is free to use by anyone.
 
+![JacksTeleprompter pic](JacksTeleprompter.png)
+
 ## To Build JacksTeleprompter
 git clone https://github.com/goHighMarketing/JacksTeleprompter.git
 
